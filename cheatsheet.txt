@@ -1,0 +1,19 @@
+touch.gitignore
+
+git config --global user.name Lavanya
+
+git init -> git repository is initialized
+
+git add . -> saari ki saari files excluding the files from gitignore , staging area mein aa gyi
+
+git commit -m "Initial Commit"  -> commit is made
+
+git status
+
+ SSH Code: ssh -keygen -t rsa -b 4096 -C "email"
+
+cat <path to id_rsa.pub> # add this to github
+
+git remote add origin <url se>
+
+git push origin master 
